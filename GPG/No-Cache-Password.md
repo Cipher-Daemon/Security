@@ -9,5 +9,5 @@ gpg -c --no-symkey-cache --cipher-algo AES256 [FILE]
 For decrypting do the same but with the "d" flag
 
 ```bash
-gpg -d --no-symkey-cache --cipher-algo AES256 [FILE]
+gpg -d --no-symkey-cache [FILE]
 ```
